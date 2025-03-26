@@ -1,17 +1,7 @@
-# Welcome! 
+# Hello, I'm Brendan
 
-I'm Brendan Barnes, a Software Engineer passionate about solving complex engineering challenges. I've spent my career bridging the gap between civil engineering and modern software development:
+I'm a software engineer based in St. Paul, Minnesota with a background in civil engineering. I enjoy solving complex problems and building tools that make difficult tasks easier.
 
-* 🚀 Developing highly optimized computational solutions, especially using GPU acceleration and parallel processing
-* 💻 Creating software in C++, Python, and TypeScript
-* 🌐 Building cloud-native applications and distributed systems using AWS
-* 🗺️ Specializing in geospatial software development and large-scale data processing
-* 👷 Combining civil engineering domain knowledge with modern software practices to create innovative solutions
-* 🎨 Exploring computer graphics and 3D visualization through WebGPU
+My work spans from cloud architecture to computational modeling, with a particular interest in bringing engineering domain knowledge into software development. When I'm not coding, I'm exploring new technologies and approaches that might help tackle tomorrow's challenges.
 
-I love tackling challenging technical problems and am always excited to explore new technologies. Currently diving deep into WebGPU and modern graphics programming, exploring the future of cross-platform GPU computing!
-
-## 📫 Get in Touch
-
-- Email: brendan.barnes856@gmail.com
-- Location: St. Paul, MN
+Feel free to reach out if you'd like to connect or collaborate: brendan.barnes856@gmail.com
