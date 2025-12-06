@@ -1,6 +1,5 @@
 import random
-import os
-import re
+import json
 from datetime import datetime
 
 DAILY_VIBES = {
@@ -214,23 +213,16 @@ def get_vibe():
         return random.choice(DAILY_VIBES[day])
     return random.choice(GENERAL_VIBES)
 
-def update_readme(text, emoji):
-    file_path = "README.md"
-    if not os.path.exists(file_path):
-        print("README.md not found.")
-        exit(1)
-    with open(file_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    new_line = f"It's a {text} kind of day {emoji}."
-    vibe_pattern = r"It's a .*? kind of day .*?\."
-    if re.search(vibe_pattern, content):
-        new_content = re.sub(vibe_pattern, new_line, content, count=1)
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.write(new_content)
+def write_vibe_json(vibe):
+    data = {
+        "schemaVersion": 1,
+        "label": "today's vibe",
+        "message": vibe,
+        "color": "blue"
+    }
+    with open("vibe.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     vibe = get_vibe()
-    parts = vibe.split(' ', 1)
-    emoji = parts[0]
-    text = parts[1] if len(parts) > 1 else parts[0]
-    update_readme(text, emoji)
+    write_vibe_json(vibe)

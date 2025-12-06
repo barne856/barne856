@@ -1,4 +1,4 @@
-name: Update Daily Vibecheck
+name: Daily Vibecheck
 
 on:
   schedule:
@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add vibe.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
