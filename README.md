@@ -5,4 +5,4 @@ I build systems that process geospatial data at scale, primarily with open sourc
 
 brendan.barnes856@gmail.com
 
-**Today's vibe:** It's a spicy take incoming kind of day 🌶️.
+**Today's vibe:** It's a unnecessary side project kind of day 🛠️.
