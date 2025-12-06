@@ -210,7 +210,7 @@ GENERAL_VIBES = [
 
 def get_vibe():
     day = datetime.today().strftime('%A')
-    if day in DAILY_VIBES and random.random() < 0.25:
+    if day in DAILY_VIBES and random.random() < 0.1:
         return random.choice(DAILY_VIBES[day])
     return random.choice(GENERAL_VIBES)
 
