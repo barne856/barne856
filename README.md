@@ -1,4 +1,4 @@
-![Today's Vibe](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/barne856/barne856/main/vibe.json&cacheSeconds=300)
+![Vibe Check](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/barne856/barne856/main/vibe.json&cacheSeconds=300)
 
 ```
 ❯ whoami

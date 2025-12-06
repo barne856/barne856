@@ -221,7 +221,7 @@ def get_vibe():
 def write_vibe_json(vibe):
     data = {
         "schemaVersion": 1,
-        "label": "Today's Vibe",
+        "label": "Vibe Check",
         "message": vibe,
         "color": "blue"
     }
