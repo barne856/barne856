@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "turning it off and on again",
+  "message": "error 418: I'm a teapot",
   "color": "blue"
 }
