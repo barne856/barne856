@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "cold pizza for breakfast",
+  "message": "sudo rm -rf",
   "color": "blue"
 }
