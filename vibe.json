@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "(...) hoping the CI passes",
+  "message": "CORS policy violation",
   "color": "blue"
 }
