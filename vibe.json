@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "rejecting corporate buzzwords",
+  "message": "premature abstraction",
   "color": "blue"
 }
