@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "deep work mode",
+  "message": "honeypot endpoint",
   "color": "blue"
 }
