@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "steady state",
+  "message": "[?!] nondeterministic test",
   "color": "blue"
 }
