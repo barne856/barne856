@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "staying hydrated",
+  "message": "git clean -fdx",
   "color": "blue"
 }
