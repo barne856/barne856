@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "growing concerns",
+  "message": "cache invalidation",
   "color": "blue"
 }
