@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "legacy code archaeologist",
+  "message": "GeoJSON geometry repair",
   "color": "blue"
 }
