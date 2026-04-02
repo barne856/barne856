@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "GeoJSON geometry repair",
+  "message": "sudo rm -rf",
   "color": "blue"
 }
