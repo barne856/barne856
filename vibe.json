@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "geocoding fails",
+  "message": "attracting edge cases",
   "color": "blue"
 }
