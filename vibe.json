@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "deprecated but still running",
+  "message": "git push --force and pray",
   "color": "blue"
 }
