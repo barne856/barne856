@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "bare metal",
+  "message": "/.+/ regex wizardry",
   "color": "blue"
 }
