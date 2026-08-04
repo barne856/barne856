@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "parroting best practices",
+  "message": "[?] random.random() < 0.5",
   "color": "blue"
 }
