@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "too many tabs open",
+  "message": "<<< meetings that could have been emails >>>",
   "color": "blue"
 }
