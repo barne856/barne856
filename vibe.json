@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "query optimization rabbit hole",
+  "message": "[?] random.random() < 0.5",
   "color": "blue"
 }
