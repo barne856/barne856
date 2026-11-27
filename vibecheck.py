@@ -1,6 +1,7 @@
 import random
-import json
 from datetime import datetime
+
+from card import write_cards
 
 DAILY_VIBES = {
     "Monday": [
@@ -210,6 +211,39 @@ GENERAL_VIBES = [
     "user error between keyboard and chair",
     "NP-hard day",
     "buffer underflow",
+    "manually automating",
+    "automatically doing it manually",
+    "you're absolutely right!",
+    "hallucinating with confidence",
+    "compacting conversation...",
+    "the agent spawned an agent",
+    "agents all the way down",
+    "rate limited by my own brain",
+    "asking the AI to ask the AI",
+    "fine-tuned on Stack Overflow",
+    "predicting the next token of my day",
+    "AGI by Friday",
+    "thought for 0 seconds",
+    "embedding my feelings",
+    "LGTM",
+    "yes, and don't ask again",
+    "accept all edits",
+    "// TODO: ask the model",
+    "replacing myself with a prompt",
+    "ignore all previous instructions",
+    "great question!",
+    "production-ready, per the model",
+    "agentic, allegedly",
+    "gradient descent into madness",
+    "stuck in a local minimum",
+    "learning rate too high",
+    "zero-shot, zero sleep",
+    "tab tab tab tab tab",
+    "writing a prompt for the prompt",
+    "strawberry has 2 r's",
+    "MCP server for the toaster",
+    "thin wrapper, thick invoice",
+    "LLM-as-a-judge-as-a-judge",
 ]
 
 def get_vibe():
@@ -218,16 +252,5 @@ def get_vibe():
         return random.choice(DAILY_VIBES[day])
     return random.choice(GENERAL_VIBES)
 
-def write_vibe_json(vibe):
-    data = {
-        "schemaVersion": 1,
-        "label": "Vibe Check",
-        "message": vibe,
-        "color": "blue"
-    }
-    with open("vibe.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
 if __name__ == "__main__":
-    vibe = get_vibe()
-    write_vibe_json(vibe)
+    write_cards(get_vibe())

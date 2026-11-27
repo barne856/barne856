@@ -1,29 +1,5 @@
-![Vibe Check](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/barne856/barne856/main/vibe.json&cacheSeconds=300)
-
-```
-❯ whoami
-
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         Brendan Barnes
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         ─────────────────────────────────────────
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████▓▓▓▓▓▓▓▓▓▓▓▓▓▓          OS: Software Engineer
-▓▓▓▓▓▓▓▓▓▓▓█████████████▓▓▓▓▓▓▓▓▓▓▓          Host: St. Paul, Minnesota
-▓▓▓▓▓▓▓▓▓████████████████▓▓▓▓▓▓▓▓▓▓          Kernel: Geospatial Systems
-▓▓▓▓▓▓▓▓▓███▓▓▓███████████▓▒▓▓▓▓▓▓▓          Uptime: 8 years
-▓▓▓▓▓▓▓▓▓██▓▒▒▒▒▓▓▓▓▓▓█████▒▓▓▓▓▓▓▓
-▓▓▓▓▒▒▓▒▓█▓▓▓▓▒▒▒▒▒▒▒▒▒▒▓██▒▓▒▒▒▒▓▓          CPU: Backend Services
-▓▒▒▒▒▒▒▒▓█▓▓███▓▓▓▓▓▓▓▓▓▓█▓▒▒▒▒▒▒▒▒          GPU: Data Visualization
-▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓█▒▓▒▒▒▒▒▒▒▓▒▒▒▒▒▒▒▒▒          Memory: Spatial Databases
-▒▒▒▒▒▒▒▒▒▓▓▓▒▓▓▓░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒          Disk: Cloud Infrastructure
-▒▒▒▒▒▒▒▒▒▒▓▓▒▓▓▓▓▒▒▒▓▒▒▒▓▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▓▓▓███▓▓▓▓▓▓▒▓▓▒▒▒▒▒▒▒▒▒▒          Theme: Open Source
-▒▒▒▒▒▒▒▒▒▒▒██▓▓▓▒▒▒▒▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒██▓▓▓▓▒▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒          Packages: Python, Rust, PostGIS
-▒▒▒▒▒▒▒▒▒▒▒▒▒██▓▓▓▓▓▓▓▒░▒▓▒▒▒▒▒▒▒▒▒                    AWS, Docker, Terraform
-▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓███▓▓▒░▒▒░░██▓▓▒▒▒▒▒                    Linux
-▒▒▒▒▒▒▓▓████▓▓▓▓▓▒▒▒▒▒░░▒▓█████▓▓▒▒
-▒▒▒▓█████████▓▓▒▒▒▒▒░▒▒▓██████████▓          Contact: brendan.barnes856@gmail.com
-▒▓█████████████▓▓▓▓▓▓██████████████
-▓██████████████████████████████████         ░░░░▒▒▒▒▓▓▓▓████████████████████▓▓▓▓▒▒░░
-███████████████████████████████████         ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-███████████████████████████████████
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/whoami-light.svg">
+  <img alt="Brendan Barnes: software engineer in St. Paul, Minnesota, working on geospatial systems" src="assets/whoami-dark.svg">
+</picture>
