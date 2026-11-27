@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vibe Check",
-  "message": "geocoding fails",
+  "message": "read-only filesystem",
   "color": "blue"
 }
